@@ -1,0 +1,561 @@
+.blogtable {
+	table-layout: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.blogtable td {
+	margin: 0;
+	padding: 0;
+}
+
+.editbuttons {
+	word-break: keep-all;
+	word-wrap: nowrap;
+	min-width: 100px;
+}
+
+.editbuttons * {
+	padding: 0;
+	margin: 0;
+}
+
+.editbuttons > p {
+	display: inline;
+	float: right;
+}
+
+.editbuttons > .delete {
+	border-left: 1px solid;
+	padding-left: 10px;
+	margin-right: 5px;
+}
+
+.editbuttons > .edit {
+	border-right: 1px solid;
+	padding-right: 12px;
+}
+
+.linkbutton {
+	text-shadow: 1px 1px gray;
+	display: block;
+	background-color: #0099ff;
+	border-radius: 4px;
+	border-style: none;
+	padding: 10px 15px;
+	outline: none;
+	color: rgb(220,220,220);
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 0.25s;
+	font-family: arial;
+	cursor: pointer;
+}
+
+.linkbutton:hover {
+	background-color: #008ae6;
+}
+
+.mainbody {
+	/*background-color: rgb(50,50,50);*/
+	background-image: url('img/nebula-1.jpg');
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+}
+
+.newpost_author_label {
+	display: inline;
+}
+
+.newpost_content_div {
+	width: 100%;
+	height: 100%;
+}
+
+.newpost_row_buffer {
+	height: auto;
+}
+
+.postauthor {
+	padding: 0;
+	margin: 0 0 0 7px;
+	font-size: 200%;
+}
+
+.postbuttonstd {
+}
+
+.postbuttons ul {
+	list-style: none;
+}
+
+.postcontent {
+	margin: 5px 7px 7px 7px;
+	word-break: normal;
+	height: 100%;
+	font-size: 110%;
+	line-height: 120%;
+}
+
+/* all of the block elements that don't relate to tables */
+.postcontent address {
+	display: inline;
+}
+.postcontent article {
+	display: inline;
+}
+.postcontent aside {
+	display: inline;
+}
+.postcontent audio {
+	display: inline;
+}
+.postcontent blockquote {
+	display: inline;
+}
+.postcontent canvas {
+	display: inline;
+}
+.postcontent dd {
+	display: inline;
+}
+.postcontent div {
+	display: inline;
+}
+.postcontent dl {
+	display: inline;
+}
+.postcontent fieldset {
+	display: inline;
+}
+.postcontent figcaption {
+	display: inline;
+}
+.postcontent figure {
+	display: inline;
+}
+.postcontent footer {
+	display: inline;
+}
+.postcontent form {
+	display: inline;
+}
+.postcontent h1 {
+	display: inline;
+}
+.postcontent h2 {
+	display: inline;
+}
+.postcontent h3 {
+	display: inline;
+}
+.postcontent h4 {
+	display: inline;
+}
+.postcontent h5 {
+	display: inline;
+}
+.postcontent h6 {
+	display: inline;
+}
+.postcontent header {
+	display: inline;
+}
+.postcontent hgroup {
+	display: inline;
+}
+.postcontent hr {
+	display: inline;
+}
+.postcontent main {
+	display: inline;
+}
+.postcontent nav {
+	display: inline;
+}
+.postcontent noscript {
+	display: inline;
+}
+.postcontent ol {
+	display: inline;
+}
+.postcontent output {
+	display: inline;
+}
+.postcontent p {
+	display: inline;
+}
+.postcontent pre {
+	display: inline;
+}
+.postcontent section {
+	display: inline;
+}
+.postcontent ul {
+	display: inline;
+}
+.postcontent video {
+	display: inline;
+}
+
+.postcontenttd {
+	height: 100%;
+}
+
+.postinfodiv {
+	padding: 0;
+	margin: 0;
+}
+
+.postinfotd {
+	/* only here because it used to be break-all */
+	word-break: normal;
+}
+
+.posttitle {
+	padding: 0;
+	margin: 5px 0 2px 7px;
+	font-size: 250%;
+}
+
+.section {
+	background: linear-gradient(to bottom, rgba(200,200,200,0.9), rgba(185,185,185,0.7), rgba(175,175,175,0.5));
+	/*linear-gradient(direction, color-stop1, color-stop2, ...);*/
+	border: 1px solid rgba(180,180,180,0);
+	border-top: none;
+	border-bottom: none;
+	border-radius: 4px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.sidebar {
+}
+
+.sidebearheader {
+	text-align: center;
+	font-size: 200%;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.sidebaroptions {
+	list-style: none;
+	padding: 0;
+	margin: 10px 30px 10px 30px;
+	font-size: 150%;
+}
+
+.topbar {
+	text-align: center;
+	padding: 15px 20px 10px 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	font-size: 125%
+}
+
+.topbar * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.topbar li {
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.topbar li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.topbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+#blogheader {
+	font-size: 300%;
+    	text-align: center;
+    	/*color: rgb(200, 200, 200);*/
+    	color: white;
+    	text-shadow: 1px 2px black;
+    	margin-bottom: 5px;
+}
+
+#access_error_label {
+	color: red;
+	font-size: 300%;
+	margin: 0;
+}
+
+#access_info {
+	font-size: 300%;
+}
+
+#access_pass_input {
+	width: 40%;
+	font-size: 250%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+#access_pass_submit {
+	width: 40%;
+	font-size: 300%;
+	margin: 0 auto 0 auto;
+}
+
+#access_section {
+	table-layout: fixed;
+	border-collapse: collapse;
+	height: 400px;
+	width: 70%;
+	margin: 20px auto 20px auto;
+	text-align: center;
+}
+
+#homelink {
+}
+
+#newpost_article {
+	height: 500px;
+}
+
+#newpost_button {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#newpost_bottom_row {
+	height: 8px;
+	min-height: 8px;
+}
+
+#newpost_col_buffer {
+	width: 25%;
+}
+
+#newpost_li {
+	text-align: center;
+}
+
+#newpost_submit {
+	font-size: 120%;
+	float: right;
+	margin-right: 7px;
+}
+
+#recentposts_label {
+}
+
+::-webkit-input-placeholder { /* Chrome-specific */
+	 color: rgb(70,70,70);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	 color: rgb(70,70,70);
+}
+
+::-moz-placeholder {	/* Firefox 19+ */
+	 color: rgb(70,70,70);
+}
+
+:-ms-input-placeholder { /* IE-specific */
+	 color: rgb(70,70,70);
+}
+
+div.postcontent > textarea {
+	width: 100%;
+	height: 100%;
+	font-size: 150%;
+	resize: vertical;
+	box-sizing: border-box;
+	border-style: none;
+	border-radius: 12px;
+	padding: 8px;
+	outline: none;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	background-color: rgb(230, 230, 230);
+	font-family: times;
+}
+
+div.postcontent > textarea:focus {
+	background-color: white;
+}
+
+input.postauthor {
+	padding: 5px 12px 5px 12px;
+	margin: 5px 0 2px 5px;
+	outline: none;
+	border-style: none;
+	border-radius: 16px;
+	width: 45%;
+	box-sizing: border-box;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	background-color: rgb(230, 230, 230);
+	display: inline;
+	font-family: times;
+}
+
+input.postauthor:focus {
+	background-color: white;
+}
+
+input.posttitle {
+	padding: 5px 12px 5px 12px;
+	margin: 5px 0 2px 5px;
+	outline: none;
+	border-style: none;
+	border-radius: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	background-color: rgb(230, 230, 230);
+	font-family: times;
+}
+
+input.posttitle:focus {
+	background-color: white;
+}
+
+input.unnatural {
+	padding: 5px 12px 5px 12px;
+	margin: 0;
+	outline: none;
+	border-style: none;
+	border-radius: 16px;
+	box-sizing: border-box;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	background-color: rgb(230, 230, 230);
+	font-family: times;
+}
+
+input.unnatural:focus {
+	background-color: white;
+}
+
+table.postheader {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+td.blogpost {
+	width: 100%;
+	height: 100%;
+}
+
+td.blogpostexample {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+td.blogpost,td.blogpostexample > article {
+	background: linear-gradient(to bottom, rgba(200,200,200,0.9), rgba(185,185,185,0.7), rgba(175,175,175,0.5));
+	/*linear-gradient(direction, color-stop1, color-stop2, ...);*/
+	border: 1px solid rgba(180,180,180,0);
+	border-top: none;
+	border-bottom: none;
+	border-radius: 4px;
+	min-height: 350px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+td.buffer {
+	width: auto;
+	height: auto;
+}
+
+.buffer {
+	width: auto;
+	height: auto;
+}
+
+td.menu {
+	width: 40%;
+}
+
+div.menu {
+	width: 40%;
+}
+
+td.menu,div.menu aside {
+	background-color: rgb(180,180,180);
+	border: 1px solid rgba(180,180,180,0);
+	border-radius: 4px;
+	min-height: 350px;
+	box-sizing: border-box;
+}
+
+tr.postrow {
+	display: block;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	min-height: 350px;
+	width: 100%;
+}
+
+tr.postrow > td.blogpost {
+	display: block;
+}
+
+html {
+	color: rgb(0,0,60);
+}
+
+a {
+	text-decoration: none;
+}
+
+a.editlink {
+	float: right;
+	margin-right: 5px;
+	font-size: 80%;
+}
+
+a.deletelink {
+	float: right;
+	margin-right: 7px;
+	font-size: 80%;
+}
+
+a.newpostlink {
+}
+
+p.unnatural {
+	font-size: 120%;
+}
+
+p a:link {
+	color: #324be6;
+}
+
+p a:visited {
+	color: #324be6;
+}
+
+p a:hover {
+	color: #6073eb;
+}
+
+p a:active {
+	color: red;
+}

@@ -1,0 +1,5 @@
+[TITLE]Hello, fellow human![/TITLE]
+[AUTHOR]A fellow human[/AUTHOR]
+[CONTENT]This is a blog where you can use <span style="font-size: 200%">HTML and stuff</span> like <span style="color: red">these colors and stuff!</span><br/>
+<br/>
+Feel free to experiment if the admin gives you the password to do so. He will probably change it before doing so because he likes the password that he used on this blog.[/CONTENT]

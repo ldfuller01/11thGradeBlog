@@ -1,0 +1,5 @@
+Create constant page header for navigation, especially back to home page.
+
+Take a look at the instructions on newpost.php.
+
+Eventually fix tables on blog posts.

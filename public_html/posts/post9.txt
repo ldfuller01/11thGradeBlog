@@ -1,0 +1,3 @@
+[TITLE]Hello, This Site Has Been Discontinued...[/TITLE]
+[AUTHOR]A Fellow Human[/AUTHOR]
+[CONTENT]<span style="color: blue"> Sorry </span>, for the inconvenience this was fun while it lasted [/CONTENT]

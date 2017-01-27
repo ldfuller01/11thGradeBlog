@@ -1,0 +1,3 @@
+[TITLE]A fun story by Donald Trump[/TITLE]
+[AUTHOR]Kappa[/AUTHOR]
+[CONTENT]Kappa123[/CONTENT]

@@ -1,0 +1,2 @@
+[11-Dec-2016 07:41:10 UTC] PHP Warning:  file_get_contents(posts/post1.txt): failed to open stream: No such file or directory in /home/ldfuller/public_html/posts/post1.php on line 2
+[12-Dec-2016 00:31:38 UTC] PHP Warning:  file_get_contents(posts/post1.txt): failed to open stream: No such file or directory in /home/ldfuller/public_html/posts/post1.php on line 2
